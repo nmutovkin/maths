@@ -6,6 +6,10 @@ This is the master list of courses in the series. Each course belongs to one
 
 ## Conventions
 
+**Audience.** The series is designed for self-study. Learners are assumed to be
+comfortable reading and writing proofs (basic logic, sets, functions,
+induction) before starting; there is no separate foundations course.
+
 **Course codes** are `AREA` + three digits. The first digit is the level:
 
 | Level | Meaning | Rough equivalent |
@@ -20,7 +24,6 @@ This is the master list of courses in the series. Each course belongs to one
 
 | Code | Area |
 |---|---|
-| FND | Foundations and context |
 | ANA | Analysis |
 | ALG | Algebra (including algebraic geometry) |
 | GEO | Geometry and topology |
@@ -37,7 +40,6 @@ This is the master list of courses in the series. Each course belongs to one
 
 ```mermaid
 flowchart LR
-  FND --> ANA & ALG & DIS & LOG
   ANA --> GEO & PRB & CMP & OPT & PHY
   ALG --> GEO & NUM & CMP
   DIS --> PRB & LOG
@@ -50,14 +52,6 @@ flowchart LR
 
 ---
 
-## FND — Foundations and context
-
-| Code | Course | Prerequisites | Key topics |
-|---|---|---|---|
-| FND101 | Introduction to Mathematical Reasoning and Proof | — | Propositional and predicate logic, sets, functions, relations, induction, cardinality, proof techniques |
-| FND102 | Mathematical Writing and LaTeX | — | Structuring proofs, notation, LaTeX, reading papers |
-| FND201 | History and Philosophy of Mathematics | FND101 | Greek to modern mathematics, crises of foundations, formalism vs. intuitionism vs. platonism |
-
 ## ANA — Analysis
 
 | Code | Course | Prerequisites | Key topics |
@@ -65,7 +59,7 @@ flowchart LR
 | ANA101 | Calculus I: Single Variable | — | Limits, continuity, derivatives, integrals, Taylor series |
 | ANA102 | Calculus II: Multivariable and Vector Calculus | ANA101, ALG101 | Partial derivatives, multiple integrals, line/surface integrals, Green, Stokes, Gauss |
 | ANA201 | Ordinary Differential Equations | ANA101, ALG101 | First-order equations, linear systems, Laplace transform, existence and uniqueness, stability |
-| ANA202 | Real Analysis I | FND101, ANA101 | Construction of ℝ, sequences and series, continuity, Riemann integral, uniform convergence |
+| ANA202 | Real Analysis I | ANA101 | Construction of ℝ, sequences and series, continuity, Riemann integral, uniform convergence |
 | ANA203 | Real Analysis II | ANA202, ANA102 | Metric spaces, analysis in ℝⁿ, inverse and implicit function theorems, differential forms |
 | ANA301 | Complex Analysis | ANA202 | Holomorphic functions, Cauchy theory, residues, conformal maps, analytic continuation |
 | ANA302 | Partial Differential Equations | ANA102, ANA201 | Heat, wave and Laplace equations, separation of variables, characteristics, maximum principles |
@@ -87,8 +81,8 @@ flowchart LR
 | Code | Course | Prerequisites | Key topics |
 |---|---|---|---|
 | ALG101 | Linear Algebra I | — | Linear systems, matrices, vector spaces, determinants, eigenvalues |
-| ALG201 | Linear Algebra II | ALG101, FND101 | Abstract vector spaces, inner products, spectral theorem, Jordan form, duality, tensor products |
-| ALG202 | Abstract Algebra I: Groups and Rings | FND101, ALG101 | Groups, homomorphisms, group actions, Sylow theorems, rings, ideals, PIDs and UFDs |
+| ALG201 | Linear Algebra II | ALG101 | Abstract vector spaces, inner products, spectral theorem, Jordan form, duality, tensor products |
+| ALG202 | Abstract Algebra I: Groups and Rings | ALG101 | Groups, homomorphisms, group actions, Sylow theorems, rings, ideals, PIDs and UFDs |
 | ALG301 | Abstract Algebra II: Fields, Modules and Galois Theory | ALG202, ALG201 | Field extensions, Galois theory, finite fields, modules over PIDs |
 | ALG302 | Representation Theory of Finite Groups | ALG301 | Characters, Maschke's theorem, induced representations, symmetric group |
 | ALG303 | Introduction to Algebraic Curves | ALG301 | Plane curves, Bézout's theorem, projective geometry, genus |
@@ -105,7 +99,7 @@ flowchart LR
 
 | Code | Course | Prerequisites | Key topics |
 |---|---|---|---|
-| GEO201 | Geometry: Euclidean, Projective and Non-Euclidean | FND101, ALG101 | Axiomatic geometry, isometry groups, projective plane, hyperbolic geometry |
+| GEO201 | Geometry: Euclidean, Projective and Non-Euclidean | ALG101 | Axiomatic geometry, isometry groups, projective plane, hyperbolic geometry |
 | GEO301 | Point-Set Topology | ANA202 | Topological spaces, compactness, connectedness, separation axioms, quotients |
 | GEO302 | Differential Geometry of Curves and Surfaces | ANA203, ALG201 | Curvature, torsion, fundamental forms, Gauss's Theorema Egregium, Gauss–Bonnet |
 | GEO303 | Introduction to Knot Theory | GEO301, ALG202 | Knot diagrams, Reidemeister moves, knot invariants and polynomials |
@@ -124,7 +118,7 @@ flowchart LR
 
 | Code | Course | Prerequisites | Key topics |
 |---|---|---|---|
-| NUM201 | Elementary Number Theory | FND101 | Divisibility, congruences, quadratic reciprocity, arithmetic functions, continued fractions |
+| NUM201 | Elementary Number Theory | — | Divisibility, congruences, quadratic reciprocity, arithmetic functions, continued fractions |
 | NUM401 | Algebraic Number Theory | ALG301 | Number fields, rings of integers, ideal factorization, class groups, Dirichlet unit theorem, p-adic numbers |
 | NUM402 | Analytic Number Theory | ANA301, NUM201 | Riemann zeta function, prime number theorem, Dirichlet L-functions, sieve methods |
 | NUM403 | Elliptic Curves | NUM401, ALG303 | Group law, Mordell–Weil, curves over finite fields, isogenies |
@@ -147,10 +141,10 @@ flowchart LR
 
 | Code | Course | Prerequisites | Key topics |
 |---|---|---|---|
-| LOG201 | Mathematical Logic | FND101 | First-order logic, completeness, compactness, Gödel's incompleteness theorems |
+| LOG201 | Mathematical Logic | — | First-order logic, completeness, compactness, Gödel's incompleteness theorems |
 | LOG301 | Computability and Complexity | LOG201, DIS101 | Turing machines, decidability, recursion theory, P vs NP |
 | LOG302 | Axiomatic Set Theory | LOG201 | ZFC, ordinals, cardinals, axiom of choice, constructible universe |
-| LOG303 | Formalized Mathematics and Proof Assistants | FND101, ALG202 | Dependent type theory, Lean, formalizing proofs |
+| LOG303 | Formalized Mathematics and Proof Assistants | ALG202 | Dependent type theory, Lean, formalizing proofs |
 | LOG401 | Model Theory | LOG201, ALG301 | Types, saturation, quantifier elimination, stability |
 | LOG402 | Proof Theory and Type Theory | LOG301 | Cut elimination, ordinal analysis, λ-calculus, homotopy type theory |
 | LOG501 | Forcing and Large Cardinals | LOG302 | Independence proofs, forcing, large cardinal axioms |
@@ -226,20 +220,18 @@ flowchart LR
 
 | Level | Courses |
 |---|---|
-| 1xx | 6 |
-| 2xx | 14 |
+| 1xx | 4 |
+| 2xx | 13 |
 | 3xx | 33 |
 | 4xx | 38 |
 | 5xx | 19 |
-| **Total** | **110** |
+| **Total** | **107** |
 
 ## Open decisions
 
-1. **Audience.** Self-study learners, a university programme, or both? This
-   affects pacing, assessment and how much the 1xx level is needed.
-2. **Depth per course.** Target length (for example 12 weeks / ~40 hours of
-   lectures) and whether 5xx courses are full courses or shorter topic modules.
-3. **Programming.** Whether computational courses use a fixed language
+1. **Course format and size.** To be discussed per course: length, structure,
+   and whether 5xx courses are full courses or shorter topic modules.
+2. **Programming.** Whether computational courses use a fixed language
    (Python, Julia) and whether other courses get computational exercises.
-4. **Scope gaps to consider.** Topology of data (TDA), tropical geometry,
-   operations research, actuarial mathematics, mathematics education.
+3. **Scope gaps to consider.** Topology of data (TDA), tropical geometry,
+   operations research, actuarial mathematics.

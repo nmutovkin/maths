@@ -2,8 +2,10 @@
 
 Detailed design of the 19 analysis (ANA) courses from the
 [catalogue](01-disciplines.md). For each course: its purpose, the units it
-covers in order, standard texts for self-study, and a milestone a learner can
-use to judge whether they are ready to move on.
+covers in order, optional external reading, and a milestone a learner can use
+to judge whether they are ready to move on.
+
+The 5xx courses are provisional and will be designed in detail much later.
 
 Course length and format are deliberately left open; they will be settled
 course by course.
@@ -76,8 +78,9 @@ from early on.
 - **Proof writing starts in ANA202.** It is the first course where every
   exercise is a proof. Learners should write full solutions and, where
   possible, compare them with published solutions or get feedback.
-- **Texts are suggestions.** Each course lists a main text and alternatives.
-  The units follow the usual order of the main text but are not tied to it.
+- **The material is self-contained.** Each course's own notes, worked examples
+  and exercises with full solutions are enough to complete it. The books listed
+  under "Optional reading" are extra and never required.
 - **Milestones are self-checks.** If the milestone task feels out of reach,
   revisit the course before moving on.
 
@@ -100,7 +103,7 @@ variable, with intuition for why the main theorems hold.
 7. Sequences and series: convergence tests, power series
 8. Taylor polynomials and Taylor series, with error estimates
 
-**Texts:** Stewart, *Calculus: Early Transcendentals* (main). Spivak,
+**Optional reading:** Stewart, *Calculus: Early Transcendentals* (main). Spivak,
 *Calculus*, or Apostol, *Calculus* Vol. 1, for a more rigorous route.
 **Milestone:** find the Taylor series of a function such as ln(1 + x), give its
 radius of convergence, and bound the error of a Taylor polynomial on an interval.
@@ -120,7 +123,7 @@ of vector calculus.
 7. Surfaces and surface integrals
 8. Green's, Stokes' and divergence theorems
 
-**Texts:** Marsden & Tromba, *Vector Calculus* (main). Hubbard & Hubbard,
+**Optional reading:** Marsden & Tromba, *Vector Calculus* (main). Hubbard & Hubbard,
 *Vector Calculus, Linear Algebra, and Differential Forms*, for an integrated
 linear-algebra approach.
 **Milestone:** verify the divergence theorem for a given field on a solid
@@ -143,7 +146,7 @@ behaviour of solutions.
 7. Nonlinear systems: equilibria, linearization, Lyapunov stability
 8. Boundary-value problems and Sturm–Liouville theory
 
-**Texts:** Boyce & DiPrima, *Elementary Differential Equations and Boundary
+**Optional reading:** Boyce & DiPrima, *Elementary Differential Equations and Boundary
 Value Problems* (main). Hirsch, Smale & Devaney, *Differential Equations,
 Dynamical Systems, and an Introduction to Chaos*, for a more qualitative approach.
 **Milestone:** classify the equilibria of a nonlinear planar system and sketch
@@ -164,7 +167,7 @@ proof-based analysis course.
 7. The Riemann integral: integrability criteria, fundamental theorem of calculus
 8. Sequences and series of functions: uniform convergence, power series, Weierstrass approximation
 
-**Texts:** Abbott, *Understanding Analysis* (main). Rudin, *Principles of
+**Optional reading:** Abbott, *Understanding Analysis* (main). Rudin, *Principles of
 Mathematical Analysis*, or Tao, *Analysis I*, as alternatives.
 **Milestone:** prove that a uniform limit of continuous functions is
 continuous, and give an example showing pointwise convergence is not enough.
@@ -183,7 +186,7 @@ continuous, and give an example showing pointwise convergence is not enough.
 7. Integration in ℝⁿ: Fubini, change of variables
 8. Differential forms and the general Stokes theorem on ℝⁿ
 
-**Texts:** Pugh, *Real Mathematical Analysis* (main). Rudin, *Principles of
+**Optional reading:** Pugh, *Real Mathematical Analysis* (main). Rudin, *Principles of
 Mathematical Analysis*; Munkres, *Analysis on Manifolds*, for units 5–8.
 **Milestone:** use the implicit function theorem to show that a given level set
 in ℝ³ is locally the graph of a smooth function.
@@ -203,7 +206,7 @@ in ℝ³ is locally the graph of a smooth function.
 7. Conformal maps, Möbius transformations, Riemann mapping theorem
 8. Analytic continuation; the gamma and zeta functions
 
-**Texts:** Stein & Shakarchi, *Complex Analysis* (main). Ahlfors, *Complex
+**Optional reading:** Stein & Shakarchi, *Complex Analysis* (main). Ahlfors, *Complex
 Analysis*; Needham, *Visual Complex Analysis*, for geometric intuition.
 **Milestone:** evaluate ∫₀^∞ dx / (1 + x⁴) using the residue theorem.
 
@@ -220,7 +223,7 @@ Analysis*; Needham, *Visual Complex Analysis*, for geometric intuition.
 7. Green's functions
 8. Energy methods and uniqueness
 
-**Texts:** Strauss, *Partial Differential Equations: An Introduction* (main).
+**Optional reading:** Strauss, *Partial Differential Equations: An Introduction* (main).
 **Milestone:** solve the heat equation on an interval with given boundary and
 initial data, and prove the solution is unique.
 
@@ -236,7 +239,7 @@ initial data, and prove the solution is unique.
 6. Finite Fourier analysis and the fast Fourier transform
 7. Applications: isoperimetric inequality, equidistribution, Dirichlet's theorem preview
 
-**Texts:** Stein & Shakarchi, *Fourier Analysis: An Introduction* (main).
+**Optional reading:** Stein & Shakarchi, *Fourier Analysis: An Introduction* (main).
 Körner, *Fourier Analysis*, for applications.
 **Milestone:** use Parseval's identity to compute ∑ 1/n⁴.
 
@@ -251,7 +254,7 @@ Körner, *Fourier Analysis*, for applications.
 5. Hamiltonian formulation and Noether's theorem
 6. Direct method: lower semicontinuity, coercivity, existence of minimizers
 
-**Texts:** Gelfand & Fomin, *Calculus of Variations* (main). van Brunt, *The
+**Optional reading:** Gelfand & Fomin, *Calculus of Variations* (main). van Brunt, *The
 Calculus of Variations*, as an alternative.
 **Milestone:** solve the brachistochrone problem and check that the solution
 satisfies the Jacobi condition.
@@ -268,7 +271,7 @@ satisfies the Jacobi condition.
 6. Chaos: Lyapunov exponents, symbolic dynamics
 7. Fractals and fractal dimension
 
-**Texts:** Strogatz, *Nonlinear Dynamics and Chaos* (main).
+**Optional reading:** Strogatz, *Nonlinear Dynamics and Chaos* (main).
 **Milestone:** locate the period-doubling cascade of the logistic map
 numerically and explain the mechanism behind it.
 
@@ -287,7 +290,7 @@ numerically and explain the mechanism behind it.
 7. Signed measures, Radon–Nikodym, Lebesgue decomposition
 8. Differentiation: Lebesgue differentiation theorem, absolutely continuous functions
 
-**Texts:** Folland, *Real Analysis* (main). Stein & Shakarchi, *Real Analysis*;
+**Optional reading:** Folland, *Real Analysis* (main). Stein & Shakarchi, *Real Analysis*;
 Axler, *Measure, Integration & Real Analysis*.
 **Milestone:** prove that Lᵖ is complete.
 
@@ -304,7 +307,7 @@ Axler, *Measure, Integration & Real Analysis*.
 7. Spectral theorem for compact self-adjoint operators
 8. Introduction to unbounded operators and to Banach algebras
 
-**Texts:** Brezis, *Functional Analysis, Sobolev Spaces and Partial
+**Optional reading:** Brezis, *Functional Analysis, Sobolev Spaces and Partial
 Differential Equations* (main). Kreyszig, *Introductory Functional Analysis
 with Applications*, as a gentler start; Conway, *A Course in Functional
 Analysis*.
@@ -323,7 +326,7 @@ with a symmetric kernel.
 6. BMO and Hardy spaces
 7. Oscillatory integrals and restriction problems (introduction)
 
-**Texts:** Grafakos, *Classical Fourier Analysis* (main). Duoandikoetxea,
+**Optional reading:** Grafakos, *Classical Fourier Analysis* (main). Duoandikoetxea,
 *Fourier Analysis*, as a shorter alternative.
 **Milestone:** prove that the Hilbert transform is bounded on Lᵖ for 1 < p < ∞.
 
@@ -339,7 +342,7 @@ with a symmetric kernel.
 6. Hyperbolic equations: energy estimates, finite speed of propagation
 7. Nonlinear problems: fixed-point methods, variational methods
 
-**Texts:** Evans, *Partial Differential Equations* (main). Brezis, as above.
+**Optional reading:** Evans, *Partial Differential Equations* (main). Brezis, as above.
 **Milestone:** prove existence and uniqueness of a weak solution to the
 Dirichlet problem for a uniformly elliptic operator.
 
@@ -354,7 +357,7 @@ Dirichlet problem for a uniformly elliptic operator.
 5. The ∂̄-problem and Hörmander's L² estimates
 6. The Levi problem
 
-**Texts:** Krantz, *Function Theory of Several Complex Variables* (main).
+**Optional reading:** Krantz, *Function Theory of Several Complex Variables* (main).
 Hörmander, *An Introduction to Complex Analysis in Several Variables*.
 **Milestone:** prove Hartogs' extension theorem for holomorphic functions on a
 punctured ball in ℂ².
@@ -370,7 +373,7 @@ punctured ball in ℂ².
 5. Entropy: measure-theoretic and topological
 6. Applications to number theory: equidistribution, Furstenberg's correspondence
 
-**Texts:** Walters, *An Introduction to Ergodic Theory* (main). Einsiedler &
+**Optional reading:** Walters, *An Introduction to Ergodic Theory* (main). Einsiedler &
 Ward, *Ergodic Theory with a view towards Number Theory*.
 **Milestone:** prove that an irrational rotation of the circle is uniquely
 ergodic.
@@ -387,7 +390,7 @@ ergodic.
 4. C*-algebras: Gelfand–Naimark theorems, GNS construction
 5. Von Neumann algebras: bicommutant theorem, factors
 
-**Texts:** Reed & Simon, *Methods of Modern Mathematical Physics* Vol. I
+**Optional reading:** Reed & Simon, *Methods of Modern Mathematical Physics* Vol. I
 (main). Murphy, *C*-Algebras and Operator Theory*.
 
 ### ANA502 Microlocal Analysis
@@ -400,7 +403,7 @@ ergodic.
 4. Propagation of singularities
 5. Semiclassical analysis and applications
 
-**Texts:** Zworski, *Semiclassical Analysis* (main). Grigis & Sjöstrand,
+**Optional reading:** Zworski, *Semiclassical Analysis* (main). Grigis & Sjöstrand,
 *Microlocal Analysis for Differential Operators*.
 
 ### ANA503 Geometric Measure Theory
@@ -413,7 +416,7 @@ ergodic.
 4. Sets of finite perimeter
 5. Currents and the Plateau problem
 
-**Texts:** Morgan, *Geometric Measure Theory: A Beginner's Guide* (main).
+**Optional reading:** Morgan, *Geometric Measure Theory: A Beginner's Guide* (main).
 Maggi, *Sets of Finite Perimeter and Geometric Variational Problems*.
 
 ---
@@ -421,10 +424,8 @@ Maggi, *Sets of Finite Perimeter and Geometric Variational Problems*.
 ## Points to decide for this track
 
 1. **Course format.** Length and structure of each course (to be discussed).
-2. **Text choices.** Whether to commit to one main text per course or write
-   our own notes that cite several texts.
-3. **Possible additions:** a second complex analysis course (elliptic
+2. **Possible additions:** a second complex analysis course (elliptic
    functions, conformal mapping in depth), potential theory, nonlinear
    functional analysis, asymptotic analysis (currently in PHY302).
-4. **Splitting the 5xx courses.** ANA501 covers two subjects (spectral theory
+3. **Splitting the 5xx courses.** ANA501 covers two subjects (spectral theory
    and operator algebras) and may work better as two courses.

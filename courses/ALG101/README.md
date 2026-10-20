@@ -39,7 +39,7 @@ Algebra and Its Applications*; Anton, *Elementary Linear Algebra*.
 | Lesson | Title | Status |
 |---|---|---|
 | **Unit 1** | **Systems of linear equations** | |
-| 1.1 | Linear equations and their geometry | Planned |
+| 1.1 | [Linear equations and their geometry](lessons/1.1-linear-equations.md) | Draft |
 | 1.2 | Gaussian elimination and row echelon form | Planned |
 | 1.3 | Reduced row echelon form; describing solution sets | Planned |
 | 1.4 | Applications: networks, chemical equations, polynomial interpolation | Planned |

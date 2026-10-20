@@ -11,4 +11,4 @@ research-level specializations.
 | 1. Catalogue of disciplines | [curriculum/01-disciplines.md](curriculum/01-disciplines.md) | Draft |
 | 2. Track designs, area by area | [Analysis](curriculum/02-analysis.md), [Algebra](curriculum/03-algebra.md), [Geometry and topology](curriculum/04-geometry.md) | Analysis, algebra, geometry drafted; other areas not started |
 | 3. Per-course syllabi | [ANA101](courses/ANA101/README.md), [ANA201](courses/ANA201/README.md), [ANA202](courses/ANA202/README.md), [ALG101](courses/ALG101/README.md) | ANA101, ANA201, ANA202 and ALG101 drafted |
-| 4. Course materials (notes, exercises, assessments) | [Conventions](courses/README.md), [ANA101 lesson 0.1](courses/ANA101/lessons/0.1-real-numbers.md) | First sample lesson drafted |
+| 4. Course materials (notes, exercises, assessments) | [Conventions](courses/README.md), [ANA101 lesson 0.1](courses/ANA101/lessons/0.1-real-numbers.md), [ALG101 lesson 1.1](courses/ALG101/lessons/1.1-linear-equations.md) | ANA101 0.1 and ALG101 1.1 drafted |

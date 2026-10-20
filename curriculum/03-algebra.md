@@ -330,5 +330,7 @@ Geometry*.
 2. **ALG303 and ALG405.** The introductory curves course overlaps with the
    start of algebraic geometry. It could stay as a gentle route in, or be
    merged into ALG405.
-3. **Complex numbers in ALG101.** ALG101 works over ℝ. Complex eigenvalues
-   could be introduced there briefly, or left to ALG201.
+3. **Complex numbers in ALG101.** The [ALG101 syllabus](../courses/ALG101/README.md)
+   proposes a short lesson on complex numbers and complex eigenvalues, so that
+   the spectral theorem for symmetric matrices can be proved in full. The
+   alternative is to work only over ℝ and leave complex eigenvalues to ALG201.
